@@ -1,0 +1,66 @@
+from array import *
+
+
+'''
+Array is created in Python by importing array module to the python program. Then the array is declared as shown eblow.
+
+arrayName = array(typecode, [Initializers])
+
+Typecode are the codes that are used to define the type of value the array will hold. Some common typecodes used are:
+
+Typecode	Value
+b	Represents signed integer of size 1 byte/td>
+B	Represents unsigned integer of size 1 byte
+c	Represents character of size 1 byte
+i	Represents signed integer of size 2 bytes
+I	Represents unsigned integer of size 2 bytes
+f	Represents floating point of size 4 bytes
+d	Represents floating point of size 8 bytes
+'''
+
+ara = array('i', [10,20,30,40,50])
+
+
+for x in ara:
+    print(x)
+
+ara.insert(1, 60)
+ara[2] = 80
+ara.remove(40)
+print("After inserting, updating and removing")
+for x in ara:
+    print(x)
+
+
+print(ara.index(50))
+
+lis = [1,2,3,4,5,6,"dfsdfs"]
+#deleting a number
+del(lis[2])
+print(lis)
+print("length of list ", str(len(lis)))
+
+
+
+tple = (1,2,3,4,5,"gfdggfgd")
+print(tple)
+'''
+Removing individual tuple elements is not possible. There is, of course, nothing wrong with putting together another 
+tuple with the undesired elements discarded.
+
+To explicitly remove an entire tuple, just use the del statement. For exa
+'''
+del(tple)
+# print(tple) this would give an error
+
+
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+
+for k, v in dict.items():
+    print(k,v)
+
+del dict['Name']; # remove entry with key 'Name'
+for k, v in dict.items():
+    print(k,v)
+dict.clear();     # remove all entries in dict
+del dict;        # delete entire dictionary
