@@ -20,6 +20,10 @@ class Queue:
             print(self.queue[i])
             i -= 1
 
+    def add_me_front(self, data):
+        self.queue.append(data)
+
+
 
 obj = Queue()
 obj.insert("Mon")
@@ -32,5 +36,7 @@ print("\nRemoving the first element Mon")
 obj.pop()
 obj.view()
 print("\nPeek first element ", obj.peek())
-
+print("\nViewing elements after adding an Mon in the front")
+obj.add_me_front("Mon")
+obj.view()
 
