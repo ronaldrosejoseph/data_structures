@@ -63,8 +63,22 @@ class LinkedList:
             return
 
         prev.next = head_obj.next
-
         head_obj = None
+
+    # Reversing the linked list
+    def reverse(self):
+        current = self.head
+        prev = None
+        while current:
+            temp = current.next
+            current.next = prev
+            prev = current
+            current = temp
+        self.head = prev
+
+
+
+
 
 
 lst_obj = LinkedList()
@@ -100,3 +114,6 @@ print("\nAfter removing mid week")
 lst_obj.remove_node('Mid Week')
 lst_obj.list_print()
 
+print("\nAfter reversing")
+lst_obj.reverse()
+lst_obj.list_print()
