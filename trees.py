@@ -1,10 +1,9 @@
 class Tree:
     def __init__(self, data):
-        self.left = None
-        self.right = None
+        self.left = self.right = None
         self.data = data
 
-    def print_tree(self, preorder, inorder, postorder):
+    def print_tree(self, preorder=[], inorder=[], postorder=[]):
         preorder.append(self.data)
         if self.left:
             self.left.print_tree(preorder, inorder, postorder)
@@ -13,7 +12,6 @@ class Tree:
             self.right.print_tree(preorder, inorder, postorder)
         postorder.append(self.data)
         return preorder, inorder, postorder
-
 
 
 '''
@@ -47,9 +45,8 @@ obj.right.right = Tree(19)
 obj.right.right.left = Tree(18)
 obj.right.right.right = Tree(20)
 
-pre, inn, post = obj.print_tree([], [], [])
+pre, inn, post = obj.print_tree()
 
 print(pre)
 print(inn)
 print(post)
-
