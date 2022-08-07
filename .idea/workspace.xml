@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b34846e2-3a33-4ad9-8cfe-75ec4193b4f1" name="Default Changelist" comment="" />
+    <list default="true" id="b34846e2-3a33-4ad9-8cfe-75ec4193b4f1" name="Default Changelist" comment="Code improvements">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,33 +122,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ron\Desktop\interview\data_structures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.trees">
-    <configuration name="Stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_structures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.tree_left_view">
     <configuration name="binary_search_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,6 +196,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tree_left_view" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_structures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree_left_view.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="trees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,19 +240,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.tree_left_view" />
       <item itemvalue="Python.linked_list" />
-      <item itemvalue="Python.Stack" />
       <item itemvalue="Python.queue" />
       <item itemvalue="Python.trees" />
       <item itemvalue="Python.binary_search_tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tree_left_view" />
         <item itemvalue="Python.trees" />
         <item itemvalue="Python.binary_search_tree" />
         <item itemvalue="Python.queue" />
         <item itemvalue="Python.linked_list" />
-        <item itemvalue="Python.Stack" />
       </list>
     </recent_temporary>
   </component>
@@ -264,6 +268,14 @@
       <option name="presentableId" value="Default" />
       <updated>1538947405730</updated>
     </task>
+    <task id="LOCAL-00001" summary="Code improvements">
+      <created>1659892765066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659892765066</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -320,6 +332,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -328,6 +351,8 @@
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/data_structures" />
     </ignored-roots>
+    <MESSAGE value="Code improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code improvements" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/array">
