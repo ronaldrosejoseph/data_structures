@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b34846e2-3a33-4ad9-8cfe-75ec4193b4f1" name="Default Changelist" comment="Code improvements">
+    <list default="true" id="b34846e2-3a33-4ad9-8cfe-75ec4193b4f1" name="Default Changelist" comment="Left view of a tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,9 @@
     <option name="height" value="773" />
   </component>
   <component name="ProjectId" id="2D2KYUIyTeQ2e7kHN4YUUHlcYQd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -129,7 +131,7 @@
       <recent name="C:\Users\Ron\Desktop\interview\data_structures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tree_left_view">
+  <component name="RunManager" selected="Python.tree_outline">
     <configuration name="binary_search_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,28 +146,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_search_tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_structures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,6 +197,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tree_outline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_structures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tree_outline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="trees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,18 +242,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.tree_left_view" />
-      <item itemvalue="Python.linked_list" />
+      <item itemvalue="Python.tree_outline" />
       <item itemvalue="Python.queue" />
       <item itemvalue="Python.trees" />
       <item itemvalue="Python.binary_search_tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tree_outline" />
         <item itemvalue="Python.tree_left_view" />
         <item itemvalue="Python.trees" />
         <item itemvalue="Python.binary_search_tree" />
         <item itemvalue="Python.queue" />
-        <item itemvalue="Python.linked_list" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659892765066</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Left view of a tree">
+      <created>1659893397146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659893397146</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -352,7 +360,8 @@
       <path value="$PROJECT_DIR$/data_structures" />
     </ignored-roots>
     <MESSAGE value="Code improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code improvements" />
+    <MESSAGE value="Left view of a tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Left view of a tree" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/array">
